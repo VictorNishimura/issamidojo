@@ -1,10 +1,16 @@
 import { MessageCircle } from "lucide-react";
-import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { site } from "@/data/siteData";
 
 export function WhatsAppButton() {
   return (
-    <Tooltip>
+    <TooltipProvider delayDuration={200}>
+      <Tooltip>
       <TooltipTrigger asChild>
         <a
           href={site.whatsapp.link}
@@ -19,6 +25,7 @@ export function WhatsAppButton() {
       <TooltipContent side="left" className="hidden sm:block">
         Fale pelo WhatsApp
       </TooltipContent>
-    </Tooltip>
+      </Tooltip>
+    </TooltipProvider>
   );
 }
