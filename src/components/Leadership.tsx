@@ -16,7 +16,7 @@ export function Leadership() {
           {leaders.map((leader, i) => (
             <Reveal key={leader.id} delay={i * 120}>
               <article className="group">
-                <div className="relative overflow-hidden rounded-sm border border-border bg-surface-2">
+                <div className="relative max-w-md overflow-hidden rounded-sm border border-border bg-surface-2">
                   {leader.photo ? (
                     <img
                       src={leader.photo}
