@@ -3,6 +3,10 @@
  * Altere aqui textos, horários e imagens sem tocar nos componentes.
  */
 
+import shihanAdilsonPhoto from "@/assets/shihan-adilson.jpg.asset.json";
+import senseiVictorPhoto from "@/assets/sensei-victor.jpg.asset.json";
+
+
 export interface GalleryItem {
   id: string;
   /** Substitua por uma foto real: import foto from "@/assets/foto.jpg" */
