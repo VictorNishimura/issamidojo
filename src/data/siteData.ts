@@ -3,6 +3,10 @@
  * Altere aqui textos, horários e imagens sem tocar nos componentes.
  */
 
+import shihanAdilsonPhoto from "@/assets/shihan-adilson.jpg.asset.json";
+import senseiVictorPhoto from "@/assets/sensei-victor.jpg.asset.json";
+
+
 export interface GalleryItem {
   id: string;
   /** Substitua por uma foto real: import foto from "@/assets/foto.jpg" */
@@ -96,6 +100,7 @@ export const leaders: LeaderProfile[] = [
     id: "shihan",
     title: "SHIHAN",
     name: "Adilson Issami Nishimura",
+    photo: shihanAdilsonPhoto.url,
     description:
       "À frente do Issami Dojo, conduz o treinamento de Karatê de Contato Shinkyokushin com uma trajetória construída em mais de 20 anos de experiência no Japão.",
   },
@@ -103,6 +108,7 @@ export const leaders: LeaderProfile[] = [
     id: "sensei",
     title: "SENSEI",
     name: "Victor Ryu Nishimura",
+    photo: senseiVictorPhoto.url,
     description:
       "Responsável pela condução dos treinos no Issami Dojo, acompanha praticantes de todas as idades no desenvolvimento técnico e marcial.",
   },
