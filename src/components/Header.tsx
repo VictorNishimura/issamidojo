@@ -51,7 +51,7 @@ export function Header() {
           className="font-display text-lg font-semibold uppercase tracking-[0.25em] sm:text-xl"
           aria-label="Issami Dojo — voltar ao início"
         >
-          Issami<span className="text-primary">.</span>Dojo
+          Issami<span className="text-primary">{"\u00a0"}</span>Dojo
         </a>
 
         <nav aria-label="Navegação principal" className="hidden items-center gap-8 lg:flex">

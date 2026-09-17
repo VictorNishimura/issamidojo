@@ -48,7 +48,7 @@ export const site = {
     link: "https://wa.me/5518996568231",
   },
   instagram: {
-    handle: "@issamidojo",
+    handle: "@ISSAMI_DOJO",
     link: "https://www.instagram.com/issamidojo/",
   },
 } as const;
@@ -110,7 +110,7 @@ export const leaders: LeaderProfile[] = [
     name: "Victor Ryu Nishimura",
     photo: senseiVictorPhoto.url,
     description:
-      "Responsável pela condução dos treinos no Issami Dojo, acompanha praticantes de todas as idades no desenvolvimento técnico e marcial.",
+      "Responsável pela condução dos treinos no Issami Dojo, atleta de alto nível e acompanha praticantes de todas as idades no desenvolvimento técnico e marcial.",
   },
 ];
 
