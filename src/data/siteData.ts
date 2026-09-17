@@ -5,7 +5,12 @@
 
 import shihanAdilsonPhoto from "@/assets/shihan-adilson.jpg.asset.json";
 import senseiVictorPhoto from "@/assets/sensei-victor.jpg.asset.json";
-
+import galleryDojoPhoto from "@/assets/gallery-dojo.jpeg.asset.json";
+import galleryKidsPhoto from "@/assets/gallery-turma-infantil.jpeg.asset.json";
+import galleryMeetingPhoto from "@/assets/gallery-encontro.jpeg.asset.json";
+import galleryMedalistsPhoto from "@/assets/gallery-atletas-premiados.jpeg.asset.json";
+import gallerySouthAmericanPhoto from "@/assets/gallery-sul-americano.jpeg.asset.json";
+import galleryTeamPhoto from "@/assets/gallery-equipe-shinkyokushin.jpeg.asset.json";
 
 export interface GalleryItem {
   id: string;
@@ -118,10 +123,43 @@ export const leaders: LeaderProfile[] = [
 export const schedule: ScheduleEntry[] = [];
 
 export const gallery: GalleryItem[] = [
-  { id: "g1", alt: "Treino no Issami Dojo", category: "Treinos", span: "tall" },
-  { id: "g2", alt: "Atleta do Issami Dojo", category: "Atletas" },
-  { id: "g3", alt: "Espaço do Issami Dojo", category: "Dojo", span: "wide" },
-  { id: "g4", alt: "Competição", category: "Competições" },
-  { id: "g5", alt: "Evento do Issami Dojo", category: "Eventos" },
-  { id: "g6", alt: "Treino coletivo", category: "Treinos", span: "tall" },
+  {
+    id: "g1",
+    src: galleryMedalistsPhoto.url,
+    alt: "Atletas do Issami Dojo premiados em competição",
+    category: "Atletas",
+    span: "tall",
+  },
+  {
+    id: "g2",
+    src: galleryKidsPhoto.url,
+    alt: "Turma infantil reunida no Issami Dojo",
+    category: "Treinos",
+  },
+  {
+    id: "g3",
+    src: galleryDojoPhoto.url,
+    alt: "Área de treinamento do Issami Dojo com tatame azul e equipamentos",
+    category: "Dojo",
+    span: "wide",
+  },
+  {
+    id: "g4",
+    src: gallerySouthAmericanPhoto.url,
+    alt: "Equipe do Issami Dojo no Campeonato Sul-Americano de Karatê de Contato",
+    category: "Competições",
+  },
+  {
+    id: "g5",
+    src: galleryMeetingPhoto.url,
+    alt: "Encontro de praticantes em evento de karatê de contato",
+    category: "Eventos",
+  },
+  {
+    id: "g6",
+    src: galleryTeamPhoto.url,
+    alt: "Equipe e familiares em evento Shinkyokushin",
+    category: "Eventos",
+    span: "tall",
+  },
 ];
