@@ -10,7 +10,7 @@ export function Footer() {
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-10 px-5 sm:px-8 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="font-display text-xl font-semibold uppercase tracking-[0.25em]">
-            Issami<span className="text-primary">.</span>Dojo
+            ISSAMI DOJO
           </p>
           <p className="mt-3 text-sm text-muted-foreground">{site.modality}</p>
           <p className="text-sm text-muted-foreground">{site.city}</p>
