@@ -13,12 +13,12 @@ export function About() {
             label="O Dojo"
             title={
               <>
-                Mais de 20 anos
+                MAIS DE 25 ANOS
                 <br />
-                de experiência
+                DE EXPERIÊNCIA
               </>
             }
-            subtitle="O Issami Dojo carrega uma trajetória construída através da dedicação às artes marciais e de mais de 20 anos de experiência no Japão."
+            subtitle="O Issami Dojo carrega uma trajetória construída através da dedicação às artes marciais e de mais de 25 anos de experiência."
           />
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted-foreground">
             Essa vivência orienta a forma como o treino acontece aqui: fundamentos sólidos,
