@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "sdk_version": "2.2.0",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "issami-dojo-official-site",
+      "version": "0.1.0",
+      "title": "Issami Dojo Official Site"
+    },
+    "tools": [
+      {
+        "name": "get_dojo_info",
+        "title": "Informações do dojo",
+        "description": "Retorna as informações gerais e públicas do Issami Dojo: nome, modalidade, cidade, endereço, WhatsApp, Instagram e os pilares do treinamento.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": null,
+        "outputSchema": null
+      },
+      {
+        "name": "get_training_info",
+        "title": "Turmas, horários e responsáveis",
+        "description": "Retorna as turmas de treinamento do Issami Dojo (crianças, jovens, adultos e competidores), os horários publicados e os responsáveis técnicos (Shihan e Sensei).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": null,
+        "outputSchema": null
+      }
+    ]
+  }
+}
