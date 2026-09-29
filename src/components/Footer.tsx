@@ -1,5 +1,5 @@
 import { site } from "@/data/siteData";
-import logoAsset from "@/assets/logo-shinkyokushin.svg.asset.json";
+import logoAsset from "@/assets/logo-shinkyokushin.png.asset.json";
 
 const mapsSearch = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
   site.address.mapsQuery,

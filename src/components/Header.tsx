@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { navLinks, site } from "@/data/siteData";
 import { cn } from "@/lib/utils";
-import logoAsset from "@/assets/logo-shinkyokushin.svg.asset.json";
+import logoAsset from "@/assets/logo-shinkyokushin.png.asset.json";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
