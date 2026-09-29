@@ -2,7 +2,7 @@ import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Separator } from "@/components/ui/separator";
 import { stats } from "@/data/siteData";
-import dojoImage from "@/assets/dojo-interior.jpg";
+import trophiesPhoto from "@/assets/trofeus.jpeg.asset.json";
 
 export function About() {
   return (
@@ -45,12 +45,12 @@ export function About() {
             className="absolute -left-3 -top-3 size-20 border-l border-t border-primary/70 sm:-left-5 sm:-top-5"
           />
           <img
-            src={dojoImage}
-            alt="Interior de um dojo tradicional de karatê iluminado por luz natural"
+            src={trophiesPhoto.url}
+            alt="Troféus e certificados conquistados pelo Issami Dojo expostos no dojo"
             width={1280}
-            height={1600}
+            height={960}
             loading="lazy"
-            className="aspect-[4/5] w-full object-cover"
+            className="aspect-[4/3] w-full object-cover object-center"
           />
         </Reveal>
       </div>
