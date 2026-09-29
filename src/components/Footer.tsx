@@ -1,4 +1,5 @@
 import { site } from "@/data/siteData";
+import logoAsset from "@/assets/logo-shinkyokushin.svg.asset.json";
 
 const mapsSearch = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
   site.address.mapsQuery,
@@ -9,8 +10,9 @@ export function Footer() {
     <footer className="bg-background py-14">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-10 px-5 sm:px-8 md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="font-display text-xl font-semibold uppercase tracking-[0.25em]">
-            ISSAMI DOJO
+          <p className="inline-flex items-center gap-3 font-display text-xl font-semibold uppercase tracking-[0.25em]">
+            <img src={logoAsset.url} alt="" aria-hidden="true" width={48} height={48} className="size-12 shrink-0" loading="lazy" />
+            <span>ISSAMI DOJO</span>
           </p>
           <p className="mt-3 text-sm text-muted-foreground">{site.modality}</p>
           <p className="text-sm text-muted-foreground">{site.city}</p>
