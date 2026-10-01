@@ -3,14 +3,14 @@
  * Altere aqui textos, horários e imagens sem tocar nos componentes.
  */
 
-import shihanAdilsonPhoto from "@/assets/shihan-adilson.jpg.asset.json";
-import senseiVictorPhoto from "@/assets/sensei-victor.jpg.asset.json";
-import galleryDojoPhoto from "@/assets/gallery-dojo.jpeg.asset.json";
-import galleryKidsPhoto from "@/assets/gallery-turma-infantil.jpeg.asset.json";
-import galleryMeetingPhoto from "@/assets/gallery-encontro.jpeg.asset.json";
-import galleryMedalistsPhoto from "@/assets/gallery-atletas-premiados.jpeg.asset.json";
-import gallerySouthAmericanPhoto from "@/assets/gallery-sul-americano.jpeg.asset.json";
-import galleryTeamPhoto from "@/assets/gallery-equipe-shinkyokushin.jpeg.asset.json";
+import shihanAdilsonPhoto from "@/assets/shihan-adilson.jpg";
+import senseiVictorPhoto from "@/assets/sensei-victor.jpg";
+import galleryDojoPhoto from "@/assets/gallery-dojo.jpeg";
+import galleryKidsPhoto from "@/assets/gallery-turma-infantil.jpeg";
+import galleryMeetingPhoto from "@/assets/gallery-encontro.jpeg";
+import galleryMedalistsPhoto from "@/assets/gallery-atletas-premiados.jpeg";
+import gallerySouthAmericanPhoto from "@/assets/gallery-sul-americano.jpeg";
+import galleryTeamPhoto from "@/assets/gallery-equipe-shinkyokushin.jpeg";
 
 export interface GalleryItem {
   id: string;
@@ -105,7 +105,7 @@ export const leaders: LeaderProfile[] = [
     id: "shihan",
     title: "SHIHAN",
     name: "Adilson Issami Nishimura",
-    photo: shihanAdilsonPhoto.url,
+    photo: shihanAdilsonPhoto,
     description:
       "À frente do Issami Dojo, conduz o treinamento de Karatê de Contato Shinkyokushin com uma trajetória construída em mais de 20 anos de experiência no Japão.",
   },
@@ -113,7 +113,7 @@ export const leaders: LeaderProfile[] = [
     id: "sensei",
     title: "SENSEI",
     name: "Victor Ryu Nishimura",
-    photo: senseiVictorPhoto.url,
+    photo: senseiVictorPhoto,
     description:
       "Responsável pela condução dos treinos no Issami Dojo, atleta de alto nível e acompanha praticantes de todas as idades no desenvolvimento técnico e marcial.",
   },
@@ -125,39 +125,39 @@ export const schedule: ScheduleEntry[] = [];
 export const gallery: GalleryItem[] = [
   {
     id: "g1",
-    src: galleryMedalistsPhoto.url,
+    src: galleryMedalistsPhoto,
     alt: "Atletas do Issami Dojo premiados em competição",
     category: "Atletas",
     span: "tall",
   },
   {
     id: "g2",
-    src: galleryKidsPhoto.url,
+    src: galleryKidsPhoto,
     alt: "Turma infantil reunida no Issami Dojo",
     category: "Treinos",
   },
   {
     id: "g3",
-    src: galleryDojoPhoto.url,
+    src: galleryDojoPhoto,
     alt: "Área de treinamento do Issami Dojo com tatame azul e equipamentos",
     category: "Dojo",
     span: "wide",
   },
   {
     id: "g4",
-    src: gallerySouthAmericanPhoto.url,
+    src: gallerySouthAmericanPhoto,
     alt: "Equipe do Issami Dojo no Campeonato Sul-Americano de Karatê de Contato",
     category: "Competições",
   },
   {
     id: "g5",
-    src: galleryMeetingPhoto.url,
+    src: galleryMeetingPhoto,
     alt: "Encontro de praticantes em evento de karatê de contato",
     category: "Eventos",
   },
   {
     id: "g6",
-    src: galleryTeamPhoto.url,
+    src: galleryTeamPhoto,
     alt: "Equipe e familiares em evento Shinkyokushin",
     category: "Eventos",
     span: "tall",

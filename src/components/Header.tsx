@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { navLinks, site } from "@/data/siteData";
 import { cn } from "@/lib/utils";
-import logoAsset from "@/assets/logo-shinkyokushin.png.asset.json";
+import logoAsset from "@/assets/logo-shinkyokushin.png";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -52,7 +52,7 @@ export function Header() {
           className="inline-flex items-center gap-2.5 font-display text-lg font-semibold uppercase tracking-[0.25em] sm:text-xl"
           aria-label="Issami Dojo — voltar ao início"
         >
-          <img src={logoAsset.url} alt="" aria-hidden="true" width={36} height={36} className="size-9 shrink-0" />
+          <img src={logoAsset} alt="" aria-hidden="true" width={36} height={36} className="size-9 shrink-0" />
           <span>Issami Dojo</span>
         </a>
 
@@ -96,7 +96,7 @@ export function Header() {
               <SheetTitle className="sr-only">Menu de navegação</SheetTitle>
               <div className="flex h-16 items-center justify-between border-b border-border px-5">
                 <span className="inline-flex items-center gap-2 font-display text-sm uppercase tracking-[0.25em]">
-                  <img src={logoAsset.url} alt="" aria-hidden="true" width={32} height={32} className="size-8 shrink-0" />
+                  <img src={logoAsset} alt="" aria-hidden="true" width={32} height={32} className="size-8 shrink-0" />
                   Issami Dojo
                 </span>
                 <Button
