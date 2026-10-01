@@ -2,7 +2,7 @@ import { Reveal } from "@/components/Reveal";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Separator } from "@/components/ui/separator";
 import { stats } from "@/data/siteData";
-import trophiesPhoto from "@/assets/trofeus.jpeg.asset.json";
+import trophiesPhoto from "@/assets/trofeus.jpeg";
 
 export function About() {
   return (
@@ -45,7 +45,7 @@ export function About() {
             className="absolute -left-3 -top-3 size-20 border-l border-t border-primary/70 sm:-left-5 sm:-top-5"
           />
           <img
-            src={trophiesPhoto.url}
+            src={trophiesPhoto}
             alt="Troféus e certificados conquistados pelo Issami Dojo expostos no dojo"
             width={1280}
             height={960}

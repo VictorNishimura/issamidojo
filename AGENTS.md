@@ -9,4 +9,4 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- Keep uploaded photos and display logos as Lovable Assets pointers, while the uploaded brand mark's favicon remains a real public SVG; this keeps media lightweight and the browser icon reliable.
+- Keep site images as real files in src/assets imported via Vite (no .asset.json pointers); the site is also deployed outside Lovable hosting where pointer URLs 404.
